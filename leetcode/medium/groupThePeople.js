@@ -10,7 +10,7 @@ var groupThePeople = function (groupSizes) {
   if (length === 1) return [[0]];
   let res = [];
   let counter = 0;
-  for (size = 0; size < 100; size++) {
+  for (let size = 0; size < 100; size++) {
     for (var i = 0; i < length; i++) {
       if (groupSizes[i] === size) {
         if (!res[counter]) res[counter] = [];
